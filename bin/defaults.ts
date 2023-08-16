@@ -23,7 +23,7 @@ export const DEFAULT_PAKE_OPTIONS: PakeCliOptions = {
 export const DEFAULT_DEV_PAKE_OPTIONS: PakeCliOptions & {url: string} = {
   ...DEFAULT_PAKE_OPTIONS,
   url: 'https://qianyekeji.cn',
-  name: 'qianye',
+  name: '匿名群聊',
   safeDomain:['qianyekeji.cn'],
   transparent: true,
 }
